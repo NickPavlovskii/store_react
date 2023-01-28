@@ -1,7 +1,8 @@
 import React from 'react'
-import logo from "../assets/images/logo.svg"
+import logo from "../../assets/images/logo.svg"
 import { Link } from "react-router-dom"
-const Search = () => {
+
+const Search = ({CartItem}) => {
 
  
     // fixed Header
@@ -26,11 +27,14 @@ const Search = () => {
 
         <div className='icon f_flex width'>
           <i className='fa fa-user icon-circle'></i>
-          <div className='cart'>
-          
+         
+          <div className='cart' >
+          <Link to='/cart' >
               <i className='fa fa-shopping-bag icon-circle'></i>
              
-              <span>0</span>
+              
+              <span>{CartItem.length === 0 ? "" : <span className='none'> {CartItem.length}</span>}</span>
+              </Link>
           </div>
         </div>
       </div>

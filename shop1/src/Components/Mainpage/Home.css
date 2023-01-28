@@ -1,0 +1,94 @@
+/* -------------------category -------*/
+
+
+.category {
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+    background-color: #fff;
+    width: 23%;
+    height: 510px;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .contentWidth {
+     width: 77%; /*100% - category%  */
+  }
+  .category img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    object-fit: contain;
+  }
+
+  .category span{
+    margin: 10px 20px ;
+    text-transform: capitalize;
+  }
+
+  .category .box{
+    transition: 0.5s;
+    padding: 0 20px;
+  }
+  .category .box:hover{
+    background-color: #ffe1ef;
+    cursor: pointer;
+  }
+
+.homeSlide h1{
+    font-size: 45px;
+}
+.homeSlide ul{
+    position: absolute;
+    bottom: 20px;
+
+}
+.homeSlide ul li{
+   border: 2px solid #b8b7b7;
+border-radius: 50%;
+padding: 10px;
+}
+
+.homeSlide ul li button{
+ background: transparent !important;
+color: transparent !important;
+ }
+
+ .homeSlide ul li button::before {
+    font-size: 15px !important;
+    color: #0f3460;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    margin: auto;
+  }
+   
+    /*---------category----------*/
+.btn-primary {
+    background: #e94560;
+    padding: 13px 40px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .top {
+    margin-top: 80px;
+  }
+  .mtop {
+    margin-top: 40px;
+  }
+  .heading i {
+    color: #e94560;
+    margin: 10px;
+  }
+  .discount {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e94560;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 50px;
+    color: #fff;
+    margin: 10px;
+  }
+  /*---------product-----------*/

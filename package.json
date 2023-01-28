@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "react-router-dom": "^6.7.0"
+    "react-router-dom": "^6.7.0",
+    "scss-react": "^1.1.1"
   }
 }
