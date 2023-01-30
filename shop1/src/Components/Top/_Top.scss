@@ -1,0 +1,53 @@
+.heading{
+    .heading-left{
+        font-size: 30px;
+
+    }
+    h2{
+        font-size: 25px;
+        margin: 5px;
+
+    }
+    .heading-right,heading-right i{
+        text-align: right;
+        color: gray;
+    }
+    
+}
+
+.topCat {
+    position: relative;
+.box{
+    margin: 0 20px;
+}
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+      }
+
+      .nametop {
+        position: relative;
+        width: 100%;
+        span {
+            background: #0f3460;
+            color: #fff;
+            font-size: 12px;
+            padding: 5px 10px;
+            border-radius: 50px;
+            margin: 5px;
+            position: absolute;
+            top: 10px;
+          }
+
+          .tleft {
+            left: 0;
+          }
+          .tright {
+            background-color: aliceblue;
+            color: black;
+            position: absolute;
+            right: 0;
+          }
+      }
+  }

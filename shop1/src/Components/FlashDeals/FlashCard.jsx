@@ -43,7 +43,7 @@ const FlashCard = ({ productItems, addToCart }) => {
 
   return (
     <>
-      <Slider {...settings}>
+      <Slider {...settings} className="slid">
     {productItems.map((productItems) => {
       
           return (
