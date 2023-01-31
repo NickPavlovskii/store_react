@@ -14,7 +14,7 @@ export const TopCart = () => {
   }
   return (
    <>
-    <Slider {...settings}>
+    <Slider {...settings} className='TCslide'>
       {Topdata.map((value, index)=>{
         return (
           <>

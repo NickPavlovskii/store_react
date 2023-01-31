@@ -1,5 +1,6 @@
-import React from 'react'
+import React ,  { useState } from 'react'
 import {FaTimes, FaPlus, FaMinus} from 'react-icons/fa';
+import Pay from './Pay';
 import './_Cart.scss'
 
 
@@ -8,11 +9,13 @@ const Cart = ({CartItem, addToCart, decreaseQty,deleteQty}) => {
  
   const totalPrice = CartItem.reduce((price, item) => price + item.qty * item.price, 0)
   return (
+      
     <>
+    
       <section className='cart-itm'>
             <div className="container d_flex">
                 <div className="cart_details">
-                    {CartItem.length===0 && <h1 className='no-items product'>No items add cart </h1> }
+                    {CartItem.length===0 && <h1 className='no-items product'>No items add cart </h1>  }
         
                     {CartItem.map((item)=>{
 
@@ -63,11 +66,27 @@ const Cart = ({CartItem, addToCart, decreaseQty,deleteQty}) => {
     <h4>Total Price :</h4>
     <h3>${totalPrice}.00</h3>
   </div>
+  {CartItem.length>0 && <Pay/>  }
 </div>
+
+
             </div>
+            
       </section>
     </>
   )
 }
+// const [CartItem, setCartItem] = useState([])
+
+// const paypal  = (product) => {
+//   const productExit = CartItem.find((item) => item.id === product.id)
+
+//   if (productExit>0) {
+//     paypalclass += 'paypal' 
+//   } else {
+    
+//     paypalclass -= 'paypal' 
+//   }
+// }
 
 export default Cart

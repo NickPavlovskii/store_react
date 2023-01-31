@@ -1,19 +1,19 @@
 import React from 'react'
-import './_Top.scss'
 import { FaCaretRight} from 'react-icons/fa';
-import { TopCart } from './TopCart';
-export const Top = () => {
+import NACart from './NACart.jsx';
+import './NewArrivals.css'
+
+
+export const NewArrivals = () => {
   return (
-<section className='topCat background'>
+    <>
+    <section className='NewArrivals background'>
     <div className='container'>
         <div className="heading d_flex">
             <div className="headin-left row f_flex">
-           
-
-
-<img src="https://img.icons8.com/glyph-neue/64/000111/guarantee.png"/>
-
-            <h2>Top Categories</h2>
+        
+           <img src='https://img.icons8.com/glyph-neue/64/26e07f/new.png' />
+           <h2>New Arrivals </h2>
 
             </div>
             <div className="heading-right row">
@@ -21,8 +21,11 @@ export const Top = () => {
                <i><FaCaretRight/></i> 
             </div>
         </div>
-            <TopCart/>
+            <NACart/>
     </div>
 </section>
+    
+    </>
   )
 }
+export default NewArrivals

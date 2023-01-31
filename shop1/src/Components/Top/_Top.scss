@@ -1,19 +1,30 @@
-.heading{
-    .heading-left{
-        font-size: 30px;
+// .heading{
+//     .heading-left{
+//         font-size: 30px;
 
-    }
-    h2{
-        font-size: 25px;
-        margin: 5px;
+//     }
+//     h2{
+//         font-size: 25px;
+//         margin: 5px;
 
-    }
-    .heading-right,heading-right i{
-        text-align: right;
-        color: gray;
-    }
+//     }
+//     .heading-right,heading-right i{
+//         text-align: right;
+//         color: gray;
+//     }
     
+// }
+.TCslide{
+    margin-left: 38px;
 }
+
+.heading img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 15px;
+    
+  }
 
 .topCat {
     position: relative;
