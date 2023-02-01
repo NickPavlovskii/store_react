@@ -11,6 +11,8 @@ import Data from './Components/FlashDeals/Data';
 import Cart from "./Page/Cart/Cart";
 import Sdata from "./Components/Shops/Sdata";
 import Footer from "./Components/Footer/Footer";
+import Maps from "./Page/map/Map";
+import Log from "./Page/user/Log";
 function App() {
  
 
@@ -47,17 +49,7 @@ function App() {
       setCartItem(CartItem.map((item) => (item.id === product.id ? { ...productExit, qty: productExit.qty - 1 } : item)))
     }
   }
-  const paypalclass ='nones';
-  const paypal  = (product) => {
-  const productExit = CartItem.find((item) => item.id === product.id)
-  const paypalclass ='nones';
-  if (productExit === 0) {
-    paypalclass += 'paypal' 
-  } else {
-    
-    paypalclass -= 'paypal' 
-  }
-}
+
 
   const deleteQty=(product)=>{  //удаление товара
     // console.log('delete',product.id);
@@ -79,7 +71,17 @@ function App() {
         
     </Routes>
     <Routes>
-        <Route exact path='/cart'  element={<Cart paypal={paypal} CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} deleteQty={deleteQty} />} />
+        <Route exact path='/cart'  element={<Cart  CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} deleteQty={deleteQty} />} />
+      
+        
+    </Routes>
+    <Routes>
+        <Route exact path='/user'  element={<Log />}  />
+      
+        
+    </Routes>
+    <Routes>
+        <Route exact path='/contact'  element={<Maps />} />
       
         
     </Routes>
