@@ -1,0 +1,40 @@
+.maps{
+    width:500px;
+    clear: both;
+    margin: 50px 200px;
+    
+}
+.panel{
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    border: 1px solid  #dddddd;
+   width: 450px;
+   height: 100%;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+.panel-head{
+    
+    color: #3d4045;
+    background-color: #f5f5f5;
+    border-color: #dddddd;
+    padding: 10px 10px;
+    border-bottom: 1px
+
+ solid transparent;
+   
+
+
+
+}
+.panel-details p{
+    margin: 20px 10px;
+}
+
+.panel-details{
+display: block;
+    font-size: 15px;
+    color: #96a1a3;
+}
+
+
