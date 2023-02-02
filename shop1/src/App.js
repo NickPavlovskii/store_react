@@ -13,6 +13,7 @@ import Sdata from "./Components/Shops/Sdata";
 import Footer from "./Components/Footer/Footer";
 import Maps from "./Page/map/Map";
 import Log from "./Page/user/Log";
+import Reg from "./Page/user/Reg";
 function App() {
  
 
@@ -82,6 +83,11 @@ function App() {
     </Routes>
     <Routes>
         <Route exact path='/contact'  element={<Maps />} />
+      
+        
+    </Routes>
+    <Routes>
+        <Route exact path='/register'  element={<Reg />} />
       
         
     </Routes>

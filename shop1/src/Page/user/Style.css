@@ -30,7 +30,7 @@
     content: '';
     position: absolute;
     left: 31px;
-    bottom: 148px;
+    top: 60px;
     height: 3px;
     width: 30px;
     background-color:#097ef3;
@@ -69,4 +69,54 @@
 
 .showhidep{
     left: 90%;
+    cursor: pointer;
+}
+
+.checkbox-text{
+    margin-top: 20px;
+}
+
+.checkbox-content{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content input{
+    margin: 0 8px -2px 4px;
+    accent-color: #4070f4;
+}
+
+.form a{
+    color: #4070f4;
+}
+.form a:hover{
+    text-decoration:underline;
+}
+
+.button{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.button input{
+   
+    padding: 15px 10px;
+    border: none;
+    color: white;
+   background-color: #097ef3;
+   font-size: 17px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   border-radius: 6px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.button input:hover{
+    background-color: #114df1;
+}
+
+.form .login-signup{
+    margin-top: 30px;
+    text-align: center;
 }
