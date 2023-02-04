@@ -1,5 +1,7 @@
 import React from "react"
 import Dcart from "./Dcart"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 import { FaCaretRight} from 'react-icons/fa';
 const Discount = () => {
   return (

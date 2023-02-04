@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "enquire": "^0.0.2",
     "react-router-dom": "^6.7.0",
-    "scss-react": "^1.1.1"
+    "react-slick": "^0.29.0",
+    "scss-react": "^1.1.1",
+    "slick-carousel": "^1.8.1"
   }
 }
