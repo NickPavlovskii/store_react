@@ -1,6 +1,6 @@
 Сайте техники на React
 
-(cсылка на Demo  https://github.com/NickPavlovskii/store_demo)
+(cсылка на Demo  https://github.com/NickPavlovskii/react_web/tree/gh-pages)
 
 Несколько фотографий 
 
