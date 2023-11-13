@@ -1,6 +1,5 @@
 Сайте техники на React
 
-
  <img src="./Снимок.PNG" width="600" height="600" />
  
  <img src="./Снимок2.PNG" width="600" height="600" />
